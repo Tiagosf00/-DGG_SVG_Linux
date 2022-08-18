@@ -1,0 +1,450 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Aug 17 04:27:08 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/tiago/git/DGG_and_SVG-master/src
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 8:59834
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = tiago
+# makefile (from 'makefile', line 2)
+CXXFLAGS = -std=c++2a -Wall -pthread 
+# environment
+MAKELEVEL := 0
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+LC_CTYPE = pt_BR.UTF-8
+# environment
+MANAGERPID = 1845
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = pt_BR.UTF-8
+# environment
+VSCODE_CWD = /home/tiago
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/tiago/.local/bin:/home/tiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/tiago/.fzf/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/Tiago-PC:@/tmp/.ICE-unix/2077,unix/Tiago-PC:/tmp/.ICE-unix/2077
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 9f5ee93039594318a9e8cdccff14521d
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4619
+# automatic
+%F = $(notdir $%)
+# makefile (from 'makefile', line 34)
+OBJECTS_SOLUTION = dgg_solution/dgg_solution.o ich/Point3D.o ich/BaseModel.o ich/RichModel.o 
+# environment
+DISPLAY = :0
+# environment
+PWD = /home/tiago/git/DGG_and_SVG-master/src
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2040
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/tiago
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/tiago/.config/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+LOGNAME = tiago
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = pt_BR.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = tiago
+# environment
+LC_MONETARY = pt_BR.UTF-8
+# makefile
+.DEFAULT_GOAL := dgg_precompute/main.o
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = pt_BR.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-007d4145-1.70.1-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = pt_BR.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = pt_BR.UTF-8
+# automatic
+<F = $(notdir $<)
+# makefile (from 'makefile', line 1)
+CXX = g++
+# environment
+LC_MEASUREMENT = pt_BR.UTF-8
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = pt_BR.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = pt_BR.UTF-8
+# makefile (from 'makefile', line 4)
+OBJECTS_PRECOMPUTE = dgg_precompute/main.o ich/Point3D.o ich/BaseModel.o ich/RichModel.o ich/ExactMethodForDGP.o ich/PreviousCH.o ich/ImprovedCHWithEdgeValve.o dgg_precompute/SVG.o dgg_precompute/FastDGG.o dgg_precompute/dgg_precompute.o 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 4619
+# variable set hash-table stats:
+# Load=109/1024=11%, Rehash=0, Collisions=19/138=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2050, inode 20454099): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+ich/ImprovedCHWithEdgeValve.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+dgg_precompute/main.o: headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h ich/ExactMethodForDGP.h ich/PreviousCH.h ich/ImprovedCHWithEdgeValve.h dgg_precompute/SVG.h dgg_precompute/FastDGG.h dgg_precompute/dgg_precompute.h dgg_buffer.h dgg_definition.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ich/Point3D.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ich/ExactMethodForDGP.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ich/BaseModel.o: headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h ich/ExactMethodForDGP.h ich/PreviousCH.h ich/ImprovedCHWithEdgeValve.h dgg_precompute/SVG.h dgg_precompute/FastDGG.h dgg_precompute/dgg_precompute.h dgg_buffer.h dgg_definition.h headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h dgg_buffer.h dgg_definition.h dgg_dijkstra.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dgg_precompute/SVG.h:
+#  Implicit rule search has not been done.
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+#  Modification time never checked.
+#  File has not been updated.
+
+dgg_precompute/FastDGG.o: headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h ich/ExactMethodForDGP.h ich/PreviousCH.h ich/ImprovedCHWithEdgeValve.h dgg_precompute/SVG.h dgg_precompute/FastDGG.h dgg_precompute/dgg_precompute.h dgg_buffer.h dgg_definition.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+DGG_Precompute: dgg_precompute/main.o ich/Point3D.o ich/BaseModel.o ich/RichModel.o ich/ExactMethodForDGP.o ich/PreviousCH.o ich/ImprovedCHWithEdgeValve.o dgg_precompute/SVG.o dgg_precompute/FastDGG.o dgg_precompute/dgg_precompute.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 31):
+		$(CXX) $(CXXFLAGS) -o $@ $^
+
+ich/RichModel.o: headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h ich/ExactMethodForDGP.h ich/PreviousCH.h ich/ImprovedCHWithEdgeValve.h dgg_precompute/SVG.h dgg_precompute/FastDGG.h dgg_precompute/dgg_precompute.h dgg_buffer.h dgg_definition.h headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h dgg_buffer.h dgg_definition.h dgg_dijkstra.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-17 02:29:48.348943594
+#  File has been updated.
+#  Successfully updated.
+
+DGG_Solution: dgg_solution/dgg_solution.o ich/Point3D.o ich/BaseModel.o ich/RichModel.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 50):
+		$(CXX) $(CXXFLAGS) -o $@ $^
+
+# Not a target:
+ich/PreviousCH.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dgg_precompute/dgg_precompute.o: headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h ich/ExactMethodForDGP.h ich/PreviousCH.h ich/ImprovedCHWithEdgeValve.h dgg_precompute/SVG.h dgg_precompute/FastDGG.h dgg_precompute/dgg_precompute.h dgg_buffer.h dgg_definition.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dgg_solution/dgg_solution.o: headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h dgg_buffer.h dgg_definition.h dgg_dijkstra.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dgg_definition.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ich/ImprovedCHWithEdgeValve.o: headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h ich/ExactMethodForDGP.h ich/PreviousCH.h ich/ImprovedCHWithEdgeValve.h dgg_precompute/SVG.h dgg_precompute/FastDGG.h dgg_precompute/dgg_precompute.h dgg_buffer.h dgg_definition.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ich/Point3D.o: headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h ich/ExactMethodForDGP.h ich/PreviousCH.h ich/ImprovedCHWithEdgeValve.h dgg_precompute/SVG.h dgg_precompute/FastDGG.h dgg_precompute/dgg_precompute.h dgg_buffer.h dgg_definition.h headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h dgg_buffer.h dgg_definition.h dgg_dijkstra.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dgg_buffer.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ich/ExactMethodForDGP.o: headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h ich/ExactMethodForDGP.h ich/PreviousCH.h ich/ImprovedCHWithEdgeValve.h dgg_precompute/SVG.h dgg_precompute/FastDGG.h dgg_precompute/dgg_precompute.h dgg_buffer.h dgg_definition.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ich/BaseModel.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dgg_precompute/SVG.o: headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h ich/ExactMethodForDGP.h ich/PreviousCH.h ich/ImprovedCHWithEdgeValve.h dgg_precompute/SVG.h dgg_precompute/FastDGG.h dgg_precompute/dgg_precompute.h dgg_buffer.h dgg_definition.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dgg_precompute/FastDGG.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dgg_dijkstra.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ich/RichModel.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ich/PreviousCH.o: headers.h ich/Point3D.h ich/BaseModel.h ich/RichModel.h ich/ExactMethodForDGP.h ich/PreviousCH.h ich/ImprovedCHWithEdgeValve.h dgg_precompute/SVG.h dgg_precompute/FastDGG.h dgg_precompute/dgg_precompute.h dgg_buffer.h dgg_definition.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+dgg_precompute/dgg_precompute.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 54):
+	rm -f \
+	*.o \
+	ich/*.o \
+	dgg_solution/*.o \
+	dgg_precompute/*.o \
+	DGG_Precompute \
+	DGG_Solution \
+
+
+# Not a target:
+headers.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=31/1024=3%, Rehash=0, Collisions=1/77=1%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 43 / storage = 682 B / avg = 15 B
+# current buf: size = 8162 B / used = 682 B / count = 43 / avg = 15 B
+
+# strcache performance: lookups = 93 / hit rate = 53%
+# hash-table stats:
+# Load=43/8192=1%, Rehash=0, Collisions=4/93=4%
+# Finished Make data base on Wed Aug 17 04:27:08 2022
+
+ 
